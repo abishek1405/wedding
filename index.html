@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Premkumar & Deepa — Wedding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+        :root{
+      --accent:#9b1c1c;
+      --muted:#b95b5b;
+      --bg:#fff8f6;
+      --card:#fff;
+      --glass: rgba(255,255,255,0.6);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,-apple-system,"Helvetica Neue",Arial;
+      background: linear-gradient(180deg,#fff8f6 0%, #fff6f0 100%);
+      color:#3b2b2b;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+    .container{max-width:1000px;margin:40px auto;padding:20px}
+
+    header.hero{
+      display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center;margin-bottom:26px;
+    }
+    .intro{padding:28px;border-radius:20px;background:linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.65));box-shadow:0 8px 30px rgba(0,0,0,0.06)}
+    .intro h1{font-family:'Playfair Display',serif;font-size:44px;margin:0;color:var(--accent);letter-spacing:1px}
+    .intro p.lead{margin:12px 0 18px;color:#6b4c4c;font-weight:500}
+    .intro .sub{color:#8a6767;font-size:15px}
+    .portrait{display:flex;flex-direction:column;gap:12px; height: 100%; align-items:center}
+    .portrait .card{width:100%;background:var(--card);border-radius:16px;padding:12px;text-align:center;box-shadow:0 8px 20px rgba(0,0,0,0.06)}
+    .names{font-family:'Playfair Display',serif;font-size:28px;color:var(--accent);margin:6px 0}
+
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:18px}
+    .card-evt{background:var(--card);padding:18px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between;}
+    .card-evt h3{margin:0 0 8px;font-size:18px;color:#3b2b2b}
+    .time{font-size:20px;font-weight:600;color:var(--accent)}
+    .muted{color:#7b5a5a}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn-map{background:transparent;border:2px solid var(--accent);color:var(--accent)}
+    .btn-rsvp{background:var(--accent);color:#fff}
+    .card-img{
+      height: 100%;
+    }
+    
+
+    .name-con{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    @media (max-width:500px) {
+      .name-con{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0px;
+    }
+
+    }
+
+
+    @media (max-width:500px) {
+      .footer-content{
+        text-align: justify;
+      }
+      .intro h1{
+        font-size: 30px !important;
+      }
+      .justify{
+      text-align: justify !important;
+    }
+    }
+    .section{margin-top:26px}
+    .section h2{font-family:'Playfair Display',serif;margin:0 0 10px;color:var(--accent)}
+    .schedule{display:flex;flex-direction:column;gap:8px}
+    .schedule .row{display:flex;justify-content:space-between;padding:10px;border-radius:10px;background:linear-gradient(180deg,rgba(250,240,240,0.5),rgba(255,255,255,0.6));}
+
+    footer{margin-top:26px;padding:20px;border-radius:14px;background:linear-gradient(180deg,#fff,#fff);text-align:center;color:#6b4c4c}
+
+    /* responsive */
+    @media (max-width:880px){
+      header.hero{grid-template-columns:1fr;}
+      .grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="intro">
+        <center>
+          <p class="sub">We joyfully invite you to celebrate the marriage of</p>
+        </center>
+        <div class="name-con">
+          <h1 class="name">Premkumar</h1>
+          <h1 class="name">&amp;</h1>
+          <h1 class="name">Deepa</h1>
+        </div>
+        <p class="lead justify" style="text-align: center;">Please join the family as we celebrate a day of love, rituals and togetherness.</p>
+
+        <div class="grid">
+          <div class="card-evt">
+            <div>
+            <h3>Ceremony</h3>
+            <div class="time">27 Oct 2025 — 6:00 AM to 7:30 AM</div>
+            <p class="muted">Sri Aadhi Kesava Perumal Kovil, Ulundurpet</p>
+            </div>
+            <div>
+                <p style="margin-top:10px"><a class="btn btn-map" href="https://maps.app.goo.gl/iWHYyZzoQnuomRrD6?g_st=aw" target="_blank">Open in Google Maps</a></p>
+            </div>
+          </div>
+
+          <div class="card-evt">
+            <div>
+            <h3>Reception</h3>
+            <div class="time">27 Oct 2025 — 6:00 PM to 9:00 PM</div>
+            <p class="muted">Akshaya (Sumangali) Marriage Hall, TVN Road, Ulundurpet</p>
+            </div>
+            <div>
+                <p style="margin-top:10px"><a class="btn btn-map" href="https://maps.app.goo.gl/v4CeYejFSY5sX8h79?g_st=aw" target="_blank">Open in Google Maps</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn btn-rsvp" href="mailto:?subject=RSVP%20for%20Premkumar%20%26%20Deepa%20Wedding&body=Hello%20—%0A%0AI%20will%20be%20attending%20the%20wedding%20of%20Premkumar%20%26%20Deepa.%0A%0AName:%0ANumber%20of%20guests:%0A%0ARegards:">RSVP via Email</a>
+          <a class="btn" href="#schedule" style="border:2px solid var(--muted);color:var(--muted);">View Schedule</a>
+        </div>
+      </div>
+
+      <aside class="portrait">
+        <div class="card">
+          <div style="font-size:13px;color:#7b5a5a;margin-bottom:6px">Save the date</div>
+          <div class="names">27 Oct 2025</div>
+          <div style="font-size:12px;color:#9b6b6b">Ulundurpet, Tamil Nadu</div>
+        </div>
+
+        <div class="card card-img">
+          <img alt="couple illustration" src="https://i.ibb.co/VW6Z1cDd/pic.webp" style="width:100%;border-radius:10px;object-fit:cover;"/>
+        </div>
+      </aside>
+    </header>
+
+    <section id="schedule" class="section">
+      <h2>Order of the day</h2>
+      <div class="schedule">
+        <div class="row"><div><strong>6:00 AM</strong> — Arrival &amp; Traditional Ceremony Begins</div><div class="muted">Sri Aadhi Kesava Perumal</div></div>
+        <div class="row"><div><strong>7:30 AM</strong> — Ceremony Concludes</div><div class="muted">Blessings &amp; Photo Time</div></div>
+        <div class="row"><div><strong>6:00 PM</strong> — Reception Opens</div><div class="muted">Akshaya (Sumangali) Hall</div></div>
+        <div class="row"><div><strong>8:00 PM</strong> — Dinner &amp; Celebrations</div><div class="muted">Music • Toasts • Family Time</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Helpful info</h2>
+      <p class="justify" style="margin:8px 0;color:#6b4c4c">Dress: Traditional / Festive – comfortable footwear recommended for the morning ceremony. Parking: Available near both venues. Children: Warmly welcome.</p>
+      <p class="justify" style="margin:8px 0">If you need directions or help with a hotel suggestion, reply to the RSVP email above or use the contact details in the footer.</p>
+    </section>
+
+    <section class="section">
+      <h2>Share or add to calendar</h2>
+      <p style="margin:10px 0">Use these quick links to add the events to Google Calendar:</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Wedding+%3A+Premkumar+%26+Deepa&dates=20251027T000000Z/20251027T010000Z&details=Ceremony+at+Sri+Aadhi+Kesava+Perumal+Kovil+Ulundurpet">Add Ceremony</a>
+        <a class="btn" target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Reception+%3A+Premkumar+%26+Deepa&dates=20251027T120000Z/20251027T150000Z&details=Reception+at+Akshaya+%28Sumangali%29+Marriage+Hall">Add Reception</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content" style="max-width:700px;margin:0 auto">For questions or to let the family know you are arriving with many guests, please <a href="mailto:?subject=Question%20about%20the%20wedding">email us</a> or reply to the RSVP. <br><br>We are excited to celebrate with you — bring your smiles and warm wishes!</div>
+    </footer>
+  </div>
+
+  <script>
+    // small enhancement: smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        e.preventDefault();document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+      });
+    });
+  </script>
+</body>
+</html>
