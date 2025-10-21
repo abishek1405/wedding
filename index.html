@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Premkumar & Deepa — Wedding</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1cf1ca806e.js" crossorigin="anonymous"></script>
   <style>
         :root{
       --accent:#9b1c1c;
@@ -128,6 +131,32 @@
         <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
           <a class="btn btn-rsvp" href="mailto:?subject=RSVP%20for%20Premkumar%20%26%20Deepa%20Wedding&body=Hello%20—%0A%0AI%20will%20be%20attending%20the%20wedding%20of%20Premkumar%20%26%20Deepa.%0A%0AName:%0ANumber%20of%20guests:%0A%0ARegards:">RSVP via Email</a>
           <a class="btn" href="#schedule" style="border:2px solid var(--muted);color:var(--muted);">View Schedule</a>
+          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-rsvp" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Bus Timing
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bus Timing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>🚌 Chennai ↔ Ulundurpet - Every 15 minutes</p>
+                    <p>🚌 Trichy ↔ Ulundurpet - Every 15 minutes</p>
+                    <p>🚌 Salem ↔ Ulundurpet - Every 30 minutes</p>
+                    <p>🚌 viruduchalam ↔ Ulundurpet - Every 30 minutes</p>
+                    <p class="text-danger">📝 Note: Bus timings change after 10:00 PM</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-rsvp" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
 
